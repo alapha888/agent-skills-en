@@ -1,6 +1,7 @@
 # Agent Skills — English Productivity Pack
 
 [![skills.sh](https://skills.sh/b/alapha888/agent-skills-en)](https://skills.sh/alapha888/agent-skills-en)
+<a href="https://aiagentslisting.com/agent-skills-en?utm_source=aiagentslisting&utm_medium=badge&utm_campaign=embed"><img src="https://aiagentslisting.com/agent-skills-en/badge.svg?theme=light" alt="Featured on AI Agents Listing" width="200" height="50" loading="lazy" /></a>
 
 A small collection of agent skills for everyday knowledge-work tasks: proofreading technical docs, writing commit messages, turning meeting notes into minutes, reviewing code, and structuring deep research. Free to use, no sign-up.
 
