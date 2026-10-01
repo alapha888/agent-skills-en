@@ -31,4 +31,4 @@ MIT. Use them, fork them, adapt them — attribution appreciated but not require
 
 ## Custom skill development
 
-I take on custom skill / AI workflow commissions: a tailored skill for your team's recurring workflow (from ¥499), or a lightweight automation / landing-page build (from ¥999). Reach me via [Afdian DM](https://afdian.com/a/cb-alerts).
+I take on custom skill / AI workflow commissions: a tailored skill for your team's recurring workflow (from ¥499), or a lightweight automation / landing-page build (from ¥999). Reach me via [Afdian DM](https://afdian.com/a/cb-alerts). After we agree on scope, the 30% deposit goes through [this Afdian listing](https://afdian.com/item/68b11b88bd5011f199ec52540025c377) (¥150 / ¥299 tiers).
