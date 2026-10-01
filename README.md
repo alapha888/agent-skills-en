@@ -28,3 +28,7 @@ To use a skill, tell your agent what you want to do (for example, "proofread thi
 ## License
 
 MIT. Use them, fork them, adapt them — attribution appreciated but not required.
+
+## Custom skill development
+
+I take on custom skill / AI workflow commissions: a tailored skill for your team's recurring workflow (from ¥499), or a lightweight automation / landing-page build (from ¥999). Reach me via [Afdian DM](https://afdian.com/a/cb-alerts).
