@@ -1,6 +1,6 @@
 ---
 name: git-commit-message
-description: Generates conventional-commit messages from staged changes: type prefix + English imperative subject (≤50 chars) + optional body explaining why. Use when the user asks to write, generate, or polish a git commit message.
+description: "Generates conventional-commit messages from staged changes: type prefix + English imperative subject (≤50 chars) + optional body explaining why. Use when the user asks to write, generate, or polish a git commit message."
 ---
 
 # Git Commit Message Generation
