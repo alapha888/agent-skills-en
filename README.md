@@ -17,6 +17,19 @@ A small collection of agent skills for everyday knowledge-work tasks: proofreadi
 | `code-review-checklist` | Five-axis code review (correctness, security, readability, performance, test coverage) with actionable comments instead of style nitpicks. |
 | `deep-research-framework` | Framework for deep research reports: define the question, tier sources, cross-verify, then write conclusion-first reports with explicit uncertainty statements. |
 
+## See it in action
+
+Raw notes in, structured minutes out — the `meeting-notes` skill's worked example (full text in [`skills/meeting-notes/SKILL.md`](skills/meeting-notes/SKILL.md); every skill ships a minimal example like this):
+
+> Input: *"...James said the login page is too slow, Maria suggested adding a cache layer, everyone agreed it's worth a pilot; draft the proposal by next Wednesday; pricing strategy still open, invite Finance next time..."*
+>
+> Output — **Bottom line**: Pilot a cache layer to speed up the login page; pricing strategy undecided, pending a session with Finance.
+> **Decisions**: adopt a cache layer for login-page performance (pilot first, not a full rollout).
+> **Action items**: Maria — draft the caching proposal, due next Wednesday `[date to confirm]`; `[unassigned]` — schedule pricing discussion with Finance `[time TBD]`.
+> **Open questions**: pricing strategy — no decision reached; the action-item owner will book a dedicated session with Finance.
+
+Note what the skill refuses to do: it does not invent the calendar date for "next Wednesday" or guess an owner the notes never named — missing details are marked, never fabricated.
+
 ## How to use
 
 Each skill lives in `skills/<name>/SKILL.md`. The `SKILL.md` file starts with a `name` and a `description` field — the description is written so agent frameworks can surface the skill when a matching request comes in.
