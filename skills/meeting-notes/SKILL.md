@@ -1,6 +1,7 @@
 ---
 name: meeting-notes
 description: "Turns raw meeting notes into structured minutes: conclusion first, then decisions / action items / open questions; every action item must have an owner and a deadline. Use when the user pastes meeting transcripts or rough notes and asks for minutes or a summary."
+license: MIT
 ---
 
 # Meeting Notes

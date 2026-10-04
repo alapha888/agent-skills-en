@@ -1,6 +1,7 @@
 ---
 name: code-review-checklist
 description: Five-axis code review checklist (correctness, security, readability, performance, test coverage) producing actionable comments instead of style nitpicks. Use when the user asks to review code, a diff, or a pull request.
+license: MIT
 ---
 
 # Code Review Checklist

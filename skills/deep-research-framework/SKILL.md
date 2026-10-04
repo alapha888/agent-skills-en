@@ -1,6 +1,7 @@
 ---
 name: deep-research-framework
 description: "Framework for deep research reports: define the question and tier sources first, cross-verify, then write conclusion-first reports with explicit uncertainty statements. Use when the user asks for a research report, topic investigation, or competitive analysis."
+license: MIT
 ---
 
 # Deep Research Report Framework

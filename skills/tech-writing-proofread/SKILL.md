@@ -1,6 +1,7 @@
 ---
 name: tech-writing-proofread
 description: Proofreads English technical writing for typos, grammar slips, punctuation, terminology consistency, jargon, and structure; returns an itemized Original → Suggestion → Reason list without rewriting the whole document. Use when the user asks to proofread, polish, or review an English technical doc, README, or blog draft.
+license: MIT
 ---
 
 # Technical Writing Proofreading
