@@ -36,6 +36,18 @@ Each skill lives in `skills/<name>/SKILL.md`. The `SKILL.md` file starts with a 
 
 To use a skill, tell your agent what you want to do (for example, "proofread this README" or "turn these notes into minutes"), and point it at the corresponding `SKILL.md` if it doesn't pick it up automatically. The agent then follows the workflow inside.
 
+## Install via SkillMD
+
+All five skills are listed on [SkillMD](https://skillmd.com/u/alapha888). Install any of them by name:
+
+```bash
+npx skillmds@latest add alapha888/git-commit-message
+npx skillmds@latest add alapha888/code-review-checklist
+npx skillmds@latest add alapha888/meeting-notes
+npx skillmds@latest add alapha888/deep-research-framework
+npx skillmds@latest add alapha888/tech-writing-proofread
+```
+
 ## Design principles
 
 - **Checklists, not essays.** Every skill is a workflow the agent can execute step by step, with a minimal runnable example.
