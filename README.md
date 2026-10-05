@@ -36,6 +36,16 @@ Each skill lives in `skills/<name>/SKILL.md`. The `SKILL.md` file starts with a 
 
 To use a skill, tell your agent what you want to do (for example, "proofread this README" or "turn these notes into minutes"), and point it at the corresponding `SKILL.md` if it doesn't pick it up automatically. The agent then follows the workflow inside.
 
+## Security: nothing to execute
+
+A study of 31,132 published agent skills found 26.1% contained at least one security vulnerability — and skills that bundle executable scripts were 2.12× more likely to be vulnerable than instruction-only ones ([coverage](https://dev.to/max_quimby/claude-code-mods-just-turned-agents-into-a-platform-5gc0)).
+
+This pack is instruction-only by design:
+
+- Each skill is a single `SKILL.md` — plain Markdown, no scripts, no binaries, no dependencies.
+- All five skills together are 283 lines. You can read every word before you install.
+- No skill touches credentials, the network, or your files on its own; it only tells your agent how to structure a task.
+
 ## Install via SkillMD
 
 All five skills are listed on [SkillMD](https://skillmd.com/u/alapha888). Install any of them by name:
