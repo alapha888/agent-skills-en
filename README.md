@@ -13,6 +13,16 @@ A small collection of agent skills for everyday knowledge-work tasks: proofreadi
 
 > 中文用户：另有《Agent Skills 中文实战包》v1（5 个 skill 中文版 + 中文安装指南 + 3 个中文实战案例），¥9.90 起一次买断 → [爱发电购买](https://afdian.com/item/595000f4bd6011f1995a52540025c377)。本仓库英文原版永久免费（MIT）。
 
+## Install
+
+All five skills at once, via the skills CLI:
+
+```bash
+npx skills add alapha888/agent-skills-en
+```
+
+No account required. To install a single skill instead, see [Install via SkillMD](#install-via-skillmd) below; or copy any `skills/<name>/SKILL.md` into your agent's skills directory manually (see [How to use](#how-to-use)).
+
 ## Skills
 
 | Skill | What it does |
