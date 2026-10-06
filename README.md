@@ -3,6 +3,8 @@
 [![skills.sh](https://skills.sh/b/alapha888/agent-skills-en)](https://skills.sh/alapha888/agent-skills-en)
 <a href="https://aiagentslisting.com/agent-skills-en?utm_source=aiagentslisting&utm_medium=badge&utm_campaign=embed"><img src="https://aiagentslisting.com/agent-skills-en/badge.svg?theme=light" alt="Featured on AI Agents Listing" width="200" height="50" loading="lazy" /></a>
 
+4 of the 5 skills in this repo are listed on OpenAgentSkill; example: [git-commit-message](https://www.openagentskill.com/skills/alapha888-agent-skills-en-git-commit-message)
+
 A small collection of agent skills for everyday knowledge-work tasks: proofreading technical docs, writing commit messages, turning meeting notes into minutes, reviewing code, and structuring deep research. Free to use, no sign-up.
 
 > 中文用户：另有《Agent Skills 中文实战包》v1（5 个 skill 中文版 + 中文安装指南 + 3 个中文实战案例），¥9.90 起一次买断 → [爱发电购买](https://afdian.com/item/595000f4bd6011f1995a52540025c377)。本仓库英文原版永久免费（MIT）。
