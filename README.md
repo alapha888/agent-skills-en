@@ -5,7 +5,7 @@
 
 4 of the 5 skills in this repo are listed on OpenAgentSkill; example: [git-commit-message](https://www.openagentskill.com/skills/alapha888-agent-skills-en-git-commit-message)
 
-Also listed on [AwesomeSkills.dev](https://www.awesomeskills.dev/en/skill/alapha888-agent-skills-en), and approved for listing on Skillstore (site sync pending).
+Also listed on [AwesomeSkills.dev](https://www.awesomeskills.dev/en/skill/alapha888-agent-skills-en), and now live on Skillstore.
 
 A small collection of agent skills for everyday knowledge-work tasks: proofreading technical docs, writing commit messages, turning meeting notes into minutes, reviewing code, and structuring deep research. Free to use, no sign-up.
 
