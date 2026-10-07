@@ -3,6 +3,8 @@
 [![skills.sh](https://skills.sh/b/alapha888/agent-skills-en)](https://skills.sh/alapha888/agent-skills-en)
 <a href="https://aiagentslisting.com/agent-skills-en?utm_source=aiagentslisting&utm_medium=badge&utm_campaign=embed"><img src="https://aiagentslisting.com/agent-skills-en/badge.svg?theme=light" alt="Featured on AI Agents Listing" width="200" height="50" loading="lazy" /></a>
 
+Listed on the M8ven Trust Index: [![M8ven Score](https://m8ven.ai/badge/mcp/alapha888/agent-skills-en)](https://m8ven.ai/mcp/alapha888/agent-skills-en?s=readme)
+
 All 5 skills in this repo are listed on OpenAgentSkill; example: [git-commit-message](https://www.openagentskill.com/skills/alapha888-agent-skills-en-git-commit-message)
 
 Also listed on [AwesomeSkills.dev](https://www.awesomeskills.dev/en/skill/alapha888-agent-skills-en), and now live on Skillstore.
