@@ -94,3 +94,8 @@ I take on custom skill / AI workflow commissions: a tailored skill for your team
 ## Agent Skills Pro
 
 Need the advanced workflows? [Agent Skills Pro](https://alapha888.github.io/agent-skills-pro/) ($39 one-time) adds three paid skills — `multi-agent-decompose`, `codebase-map`, and `release-notes` — for coordinating parallel agents, onboarding onto unfamiliar repos, and cutting readable releases. The free pack above stays free.
+
+## Validating next (not yet built)
+
+- **MDClip Pro** — web page → Markdown converter; planned ¥15/month *(not built yet, no payment taken)*. Waitlist: https://alapha888.github.io/mdclip-waitlist/ — builds only if 30 people sign up by Oct 31, 2026.
+- **SyncMatrix** — multi-account publishing management for matrix/team operators; planned ¥39/month *(not built yet, no payment taken)*. Waitlist: https://alapha888.github.io/syncmatrix-waitlist/ — builds only if 20 people sign up by Oct 31, 2026.
