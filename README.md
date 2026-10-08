@@ -17,6 +17,8 @@ A small collection of agent skills for everyday knowledge-work tasks: proofreadi
 >
 > 如需针对你的 Claude Code / Codex 配置做一次一对一诊断并获得书面报告，可前往 [AI 编程工作流诊断](https://afdian.com/item/bfc88e58bdad11f19b095254001e7c00)（99 元）。
 
+Prefer a printable desk reference? The code review and git commit skills are also sold as condensed, print-ready cheat sheets (PDF + PNG, $19 one-time) in a [Gumroad bundle](https://alapha888.gumroad.com/l/zjayxe). The full skill text in this repo stays free (MIT).
+
 ## Install
 
 All five skills at once, via the skills CLI:
