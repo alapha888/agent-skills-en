@@ -14,6 +14,8 @@ All 5 skills are also indexed on SkillsMP; example: [git-commit-message](https:/
 A small collection of agent skills for everyday knowledge-work tasks: proofreading technical docs, writing commit messages, turning meeting notes into minutes, reviewing code, and structuring deep research. Free to use, no sign-up.
 
 > 中文用户：另有《Agent Skills 中文实战包》v1（5 个 skill 中文版 + 中文安装指南 + 3 个中文实战案例），¥9.90 起一次买断 → [爱发电购买](https://afdian.com/item/595000f4bd6011f1995a52540025c377)。本仓库英文原版永久免费（MIT）。
+>
+> 如需针对你的 Claude Code / Codex 配置做一次一对一诊断并获得书面报告，可前往 [AI 编程工作流诊断](https://afdian.com/item/bfc88e58bdad11f19b095254001e7c00)（99 元）。
 
 ## Install
 
