@@ -19,6 +19,10 @@ A small collection of agent skills for everyday knowledge-work tasks: proofreadi
 
 Prefer a printable desk reference? The code review and git commit skills are also sold as condensed, print-ready cheat sheets (PDF + PNG, $19 one-time) in a [Gumroad bundle](https://alapha888.gumroad.com/l/zjayxe). The full skill text in this repo stays free (MIT).
 
+<a href="https://alapha888.gumroad.com/l/zjayxe"><img src="assets/preview-code-review.jpg" alt="Code review cheat sheet preview" width="340"></a> <a href="https://alapha888.gumroad.com/l/zjayxe"><img src="assets/preview-git-commit.jpg" alt="Git commit cheat sheet preview" width="340"></a>
+
+*Previews above show the top portion of each sheet; the bundle contains the complete sheets (PDF + PNG).*
+
 ## Install
 
 All five skills at once, via the skills CLI:
