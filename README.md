@@ -45,6 +45,8 @@ No account required. To install a single skill instead, see [Install via SkillMD
 | `code-review-checklist` | Five-axis code review (correctness, security, readability, performance, test coverage) with actionable comments instead of style nitpicks. |
 | `deep-research-framework` | Framework for deep research reports: define the question, tier sources, cross-verify, then write conclusion-first reports with explicit uncertainty statements. |
 
+Read the proofreading checklist free as a Gist: [Proofreading Checklist for Technical Writing](https://gist.github.com/alapha888/8342ddc76abe6c0092d4185c51a2137d).
+
 ## See it in action
 
 Raw notes in, structured minutes out — the `meeting-notes` skill's worked example (full text in [`skills/meeting-notes/SKILL.md`](skills/meeting-notes/SKILL.md); every skill ships a minimal example like this):
