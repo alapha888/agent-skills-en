@@ -23,6 +23,8 @@ Prefer a printable desk reference? The code review and git commit skills are als
 
 *Previews above show the top portion of each sheet; the bundle contains the complete sheets (PDF + PNG).*
 
+Read the cheat sheets free as Gists: [Code Review Cheat Sheet](https://gist.github.com/alapha888/ce9aa4518cad1be64bc260d1bf016253) · [Git Commit Cheat Sheet](https://gist.github.com/alapha888/baf72cab251bdc8210bde628aba6746f). The Gist text is free; the Gumroad bundle above is the condensed, print-ready version.
+
 ## Install
 
 All five skills at once, via the skills CLI:
