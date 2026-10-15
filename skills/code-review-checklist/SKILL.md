@@ -12,13 +12,13 @@ One review answers a single question: "Will this code become someone else's prob
 
 1. **Check the scope first**: look at the diff size. Over ~400 changed lines, ask for a split before reviewing — review quality on huge diffs always collapses.
 2. **Check axis by axis** (order = priority):
-   - **Correctness**: edge cases (null, empty, zero, negative, oversized), concurrency/timing assumptions, error handling (are exceptions swallowed?). The only axis that can block a merge.
-   - **Security**: is user input concatenated into SQL / shell commands / HTML; are secrets or tokens hard-coded; does logging leak sensitive data.
+   - **Correctness**: edge cases (null, empty, zero, negative, oversized), concurrency/timing assumptions, error handling (are exceptions swallowed?). One of the two axes that can block a merge (with Security).
+   - **Security**: is user input concatenated into SQL / shell commands / HTML; are secrets or tokens hard-coded; does logging leak sensitive data. One of the two axes that can block a merge (with Correctness).
    - **Readability**: do names say what things are; does each function do one thing; are magic numbers named. Flag only what you can't understand — not "I'd write it differently."
    - **Performance**: repeated queries or recomputation inside loops; N+1 problems; avoidable large-object copies. No data-free performance speculation ("this might get slow" is not a comment).
-   - **Test coverage**: does new logic have tests; do edge cases have cases. All-green tests with the critical path uncovered still get sent back.
+   - **Test coverage**: does new logic have tests; do edge cases have cases. All-green tests with the critical path uncovered still earn a `Should fix` — flag it explicitly, but tests alone don't block the merge.
 3. **Write the comments**: fixed format — `[axis] file:line problem → suggested fix`. Only actionable suggestions; "could be optimized" is not one.
-4. **Triage**: `Must fix` (correctness / security) vs `Should fix` (readability / performance / tests). "Should fix" doesn't block the merge, but say so explicitly.
+4. **Triage**: `Must fix` = a concrete correctness or security failure (these two axes, and only these, can block a merge) vs `Should fix` (readability / performance / tests). "Should fix" doesn't block the merge, but say so explicitly.
 
 ## Rules
 
@@ -46,6 +46,26 @@ Example review comments:
 [Must fix][Correctness] order.py:87 empty order list triggers IndexError → guard for empty before taking [0]
 [Should fix][Readability] order.py:92 magic number 86400 → name it SECONDS_PER_DAY
 ```
+
+## Worked example
+
+A 14-line diff adds a discount endpoint. The full review this checklist produces:
+
+```python
+@app.get("/discount")
+def discount(code: str):
+    row = db.execute(f"SELECT pct FROM coupons WHERE code = '{code}'").fetchone()
+    return {"pct": row[0], "label": "SAVE" + str(row[0]) + "%"}
+```
+
+```text
+[Must fix][Security] discount.py:3 user input interpolated into SQL → parameterize the query (code = ?)
+[Must fix][Correctness] discount.py:4 unknown code makes fetchone() return None, row[0] raises TypeError → return 404 when row is None
+[Should fix][Readability] discount.py:5 label built by string concatenation → use an f-string or a named helper
+Verdict: do not merge — 2 must-fix items (security + correctness). The readability item does not block.
+```
+
+Note what the checklist kept out: no comment on quotes, line length, or naming taste, and no performance remark — there is no data showing this query is slow. Two blocking findings, one non-blocking note, one explicit verdict: that ratio is the point of the triage rule.
 
 ## Anti-patterns
 
