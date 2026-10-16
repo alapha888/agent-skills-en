@@ -111,3 +111,7 @@ Need the advanced workflows? [Agent Skills Pro](https://alapha888.github.io/agen
 
 - **MDClip Pro** — web page → Markdown converter; planned ¥15/month *(not built yet, no payment taken)*. Waitlist: https://alapha888.github.io/mdclip-waitlist/ — builds only if 30 people sign up by Oct 31, 2026.
 - **SyncMatrix** — multi-account publishing management for matrix/team operators; planned ¥39/month *(not built yet, no payment taken)*. Waitlist: https://alapha888.github.io/syncmatrix-waitlist/ — builds only if 20 people sign up by Oct 31, 2026.
+
+## More from the same author
+
+- Full index of free tools, paid tiers, and waitlists: https://gist.github.com/alapha888/fe51434e80dbc0ef5610aeab38b025f4
