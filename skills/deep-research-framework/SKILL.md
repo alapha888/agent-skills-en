@@ -27,7 +27,7 @@ Produce a report whose "conclusions are trustworthy, process is traceable, and t
 - Mark speculation as speculation. Use "may", "likely", "unverified" — never dress speculation up with "clearly" or "it is well known".
 - No tertiary source supports a core conclusion. A forum thread can point a direction, never serve as evidence.
 - Every number in the report has a source. A number without a source is deleted, not rewritten.
-- State "what you don't know" before "what you know" — honest uncertainty beats pretty certainty.
+- Give "what you don't know" its own explicit uncertainty statement (Workflow step 4, closing section) — never bury the unknowns inside confident prose.
 
 ## Minimal example (report outline template)
 

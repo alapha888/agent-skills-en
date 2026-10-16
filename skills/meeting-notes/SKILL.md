@@ -20,9 +20,9 @@ Turn messy meeting notes into minutes that let someone who missed the meeting ca
 
 ## Rules
 
-- Do not fabricate. Names, dates, and numbers not in the notes must not appear; mark missing ones `[to confirm]`.
+- Do not fabricate. Names, dates, and numbers not in the notes must not appear; mark a missing owner `[unassigned]` and a missing deadline `[TBD]`, exactly as in Workflow step 2.
 - Do not editorialize. No "Maria's proposal seemed shaky" — only "Maria's proposal was rejected because…" (if a reason was stated).
-- Length control: the minutes body must be ≤1/3 of the raw notes. Longer means you didn't distill — redo it.
+- Length control: the minutes body must be ≤1/3 of the raw notes (measured against the full notes, not a shortened excerpt). Longer means you didn't distill — redo it.
 
 ## Minimal example
 
@@ -40,11 +40,11 @@ Output:
 **Bottom line**: Pilot a cache layer to speed up the login page; pricing strategy undecided, pending a session with Finance.
 
 ### Decisions
-- Adopt a cache layer for login-page performance (pilot first, not a full rollout).
+- Decided to adopt a cache layer for login-page performance (pilot first, not a full rollout).
 
 ### Action items
-- [ ] Maria: draft the caching proposal, due next Wednesday `[date to confirm]`
-- [ ] [unassigned]: schedule pricing discussion with Finance `[time TBD]`
+- [ ] Maria: draft the caching proposal, due next Wednesday `[TBD]`
+- [ ] [unassigned]: schedule pricing discussion with Finance `[TBD]`
 
 ### Open questions
 - Pricing strategy: no decision reached; the action-item owner will book a dedicated session with Finance.
