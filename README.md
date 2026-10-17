@@ -11,6 +11,8 @@ Also listed on [AwesomeSkills.dev](https://www.awesomeskills.dev/en/skill/alapha
 
 Also listed in [awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) (Domain skill packs section), merged 2026-10-14.
 
+The code review workflow is also published as a cheat sheet in [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/code_review.md) (46k+ stars), merged Oct 17, 2026.
+
 All 5 skills are also indexed on SkillsMP; example: [git-commit-message](https://skillsmp.com/creators/alapha888/agent-skills-en/skills-git-commit-message)
 
 A small collection of agent skills for everyday knowledge-work tasks: proofreading technical docs, writing commit messages, turning meeting notes into minutes, reviewing code, and structuring deep research. Free to use, no sign-up.
