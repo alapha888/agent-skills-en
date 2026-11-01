@@ -116,6 +116,7 @@ Need the advanced workflows? [Agent Skills Pro](https://alapha888.github.io/agen
 
 ## More from the same author
 
+- **AGENTS.md & AI Coding-Agent Workflow Pack** — 11 AGENTS.md stack templates, a one-line CLAUDE.md shim, 3 Cursor rule examples, 51 workflow prompts and a review checklist; complements these skills with a project rules file. Pay what you want from $9 (Gumroad). https://alapha888.gumroad.com/l/agents-md-pack
 - **RunnerDriftAudit** — Free CLI that scans GitHub Actions workflows for runner-label and tool drift ahead of the ubuntu-latest 26.04 migration; the Pro edition ($29 one-time) scans a whole local workspace in one run. https://github.com/alapha888/runner-drift-audit
 - **PubAudit** — Free CLI that batch-converts Microsoft Publisher (.pub) files to PDF and verifies every output (OK / REVIEW / FAILED). https://github.com/alapha888/pubaudit
 - Full index of free tools, paid tiers, and waitlists: https://gist.github.com/alapha888/fe51434e80dbc0ef5610aeab38b025f4
